@@ -2,10 +2,10 @@ import numpy as np
 import pymdp
 from pymdp.agent import Agent
 
-from food_world import World
+from .world import FoodWorld
 
 
-def random_agent(world: World) -> Agent:
+def random_agent(world: FoodWorld) -> Agent:
     observation_sizes = [
         world.max_energy,
         len(world.state_names),

@@ -1,0 +1,4 @@
+{
+  "mypy.dmypyExecutable": "/Users/defrex/Code/inference-play/.venv/bin/dmypy",
+  "mypy.runUsingActiveInterpreter": true
+}
